@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">AndroidProject</string>
     <string name="welcome_message">Hello user!</string>
+    <string name="activity_2_button">Go to Activity 2</string>
 </resources>
