@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.andymcwilliams.androidproject.LoginActivity">
+    tools:context="com.andymcwilliams.androidproject.LoginActivity"
+    android:weightSum="1">
 
     <!-- Login progress -->
     <ProgressBar
@@ -22,7 +23,7 @@
     <ScrollView
         android:id="@+id/login_form"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="383dp">
 
         <LinearLayout
             android:id="@+id/email_login_form"
@@ -74,4 +75,16 @@
 
         </LinearLayout>
     </ScrollView>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.60"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/app_welcome_message"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textStyle="bold|italic" />
 </LinearLayout>

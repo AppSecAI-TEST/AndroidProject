@@ -3,7 +3,7 @@
     <string name="welcome_message">Hello user!</string>
     <string name="activity_2_button">Go to Activity 2</string>
     <string name="title_activity_login">Sign in</string>
-
+    <string name="app_welcome_message">Welcome to my App</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
